@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    border: 0;
+}
+.navbar-nav{border: 0;
+
+}
+body{
+
+    background-color: white !important;
+}
+.card-body{
+    height: 6vw;
+
+
+}
+
+
+.bigtext{background-color: #a7aeb0;
+
+
+    width:100%;
+    height: 100px;
+
+    text-align: -webkit-center;}
+
+
+.form-group{margin-top: 25px;}
+.card-title{margin-top: 15px}
+.smalltext{margin-bottom: 35px}
+.form-control{margin-top: 10px}
+.card-title{
+    margin-bottom: 5px;
+    width:100%;
+    line-height: normal;
+    text-align: -webkit-center;
+
+}
+.contactme{
+    align-content: center;
+    text-align: center;
+}
+.carousel-item{width: 350px;
+    height: 350px;
+
+
+}
+.carousel{
+    padding: 1%;
+    margin-right: 500px;
+    width: 100%;
+    display: block;
+    background-color: aqua;
+
+}
+
+
+
+.center{ display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50%;!important;
+}
+.Jumbotron{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 50%;!important;
+    height: 450px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
