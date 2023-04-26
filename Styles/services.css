@@ -41,17 +41,45 @@ body{
     align-content: center;
     text-align: center;
 }
-.carousel-item{width: 350px;
-    height: 350px;
+.carousel-item{
+    width: 100%;
+    width: 300px;
+    height: auto;
+
+
 
 
 }
-.carousel{
-    padding: 1%;
-    margin-right: 500px;
-    width: 100%;
+.carousel-inner{
     display: block;
-    background-color: aqua;
+    alignment: center;
+    align-content: center;
+    align-items: center;
+
+
+}
+.carousel-item{align-items: center;
+    align-content: center;
+    align-self: center;
+display: inline-block;
+}
+
+.sidetext{
+    text-align: center;
+    text-after-overflow: 30px;
+}
+.carousel{
+margin-left: auto;
+    margin-right: auto;
+margin-left: 100px;
+
+display: block;
+    width: 50%;
+    width: fit-content;
+    height: border-box;
+
+
+
 
 }
 
@@ -75,9 +103,9 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: aliceblue;
+    background-color: #a7aeb0;
     color: white;
     text-align: center;
     padding: 10px;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
