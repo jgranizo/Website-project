@@ -41,13 +41,13 @@ margin-bottom: 5px;
 .center{ display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    width: 50%;!important;
+    width: 50% !important;
 }
 .Jumbotron{
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    width: 50%;!important;
+    width: 50% !important;
     height: 450px;
 }
 
