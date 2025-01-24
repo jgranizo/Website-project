@@ -1,65 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Professional face painting services for events and parties">
   <link rel="shortcut icon" href="Images/butterfly.jpg">
-  
+
   <!-- Bootstrap 4.3.1 -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  
-  <!-- Your custom stylesheet -->
-  <link href="Styles/fbt.css" rel="stylesheet">
-  
+
+  <!-- Custom stylesheet -->
+  <link href="Styles/facepainting.css" rel="stylesheet">
+
   <title>Amazing Face Painting</title>
 </head>
 <body>
- 
-    <!-- Full-width header -->
-    <div id="header"></div>
-    <div class="container-fluid">
-    <div class="row">
-      <div class="bigtext">
-        <h1 class="card-title">FacePainting</h1>
-      </div>
+  <!-- Full-width header -->
+  <div id="header"></div>
 
-      <div class="contactme">
-        <form action="contact.html">
-          <button>Contact us</button>
-        </form>
-      </div>
-
-      <div class="description">
-        <p>Bring color and joy to your next event with my professional face painting services! With nearly a decade of experience, I specialize in creating stunning, custom designs for festivals, kids' parties, and special occasions. From playful animals and superheroes to elegant floral patterns and whimsical creations, my artistry is sure to delight guests of all ages.</p>
-      </div>
-
-      <div class="card-deck">
-        <div class="card">
-          <img class="card-img-top" src="Images/miafacepainting.jpg" alt="facepaint image">
-        </div>
-
-        <div class="card">
-          <img class="card-img-top" src="Images/ninjaturtle.jpg" alt="ninja turtle image">
-        </div>
-
-        <div class="card">
-          <img class="card-img-top" src="Images/scarecrow.jpg" alt="scarecrow image">
-        </div>
-
-        <div class="card">
-          <img class="card-img-top" src="Images/spiderman.jpg" alt="spiderman image">
-        </div>
-      </div>
+  <div class="container">
+    <!-- Big Text Section -->
+    <div class="bigtext">
+      <h1 class="card-title">FacePainting</h1>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer page-footer font-small">
-      <div class="container">
-        <div class="row">
-          <span class="text-muted">&copy; Jeremy Granizo, 2023 | Terms Of Use | Privacy Statement</span>
-        </div>
+    <!-- Contact Us Button -->
+    <div class="contactme">
+      <form action="contact.html">
+        <button type="submit" class="btn btn-outline-primary">Contact Us</button>
+      </form>
+    </div>
+
+    <!-- Description Section -->
+    <div class="description">
+      <p>Bring color and joy to your next event with my professional face painting services! With nearly a decade of experience, I specialize in creating stunning, custom designs for festivals, kids' parties, and special occasions. From playful animals and superheroes to elegant floral patterns and whimsical creations, my artistry is sure to delight guests of all ages.</p>
+    </div>
+
+    <!-- Card Deck Section -->
+    <div class="card-deck">
+      <div class="card">
+        <img class="card-img-top img-fluid" src="Images/miafacepainting.jpg" alt="A colorful face painting">
       </div>
-    </footer>
+      <div class="card">
+        <img class="card-img-top img-fluid" src="Images/ninjaturtle.jpg" alt="Ninja Turtle face painting">
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid" src="Images/scarecrow.jpg" alt="Scarecrow face painting">
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid" src="Images/spiderman.jpg" alt="Spiderman face painting">
+      </div>
+    </div>
   </div>
+
+  <!-- Footer Section -->
+  <div id="footer"></div>
 
   <!-- JavaScript Bundle with Popper -->
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -72,13 +67,18 @@
           integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
           crossorigin="anonymous"></script>
 
-  <!-- JavaScript to dynamically load the header -->
+  <!-- JavaScript to dynamically load the header and footer -->
   <script>
     document.addEventListener("DOMContentLoaded", function() {
       fetch("header.html")
         .then(response => response.text())
         .then(data => document.getElementById("header").innerHTML = data)
         .catch(error => console.error("Error loading header:", error));
+
+      fetch("footer.html")
+        .then(response => response.text())
+        .then(data => document.getElementById("footer").innerHTML = data)
+        .catch(error => console.error("Error loading footer:", error));
     });
   </script>
 </body>
