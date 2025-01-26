@@ -8,18 +8,22 @@
 }
 body{
 
-    background-color: #a7aeb0 !important;
+    background-color: white !important;
 }
 .card-body{
     height: 6vw;
 
 }
 
-.bigtext{background-color: white;
+.contactme{
+    text-align: center;
+    margin: auto;}
+
+.bigtext{background-color: #a7aeb0;
 
 
     width:100%;
-    height: 100px;
+    height: 15vh;
     text-align: -webkit-center;}
 
 
@@ -45,13 +49,13 @@ body{
 .center{ display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    width: 50%;!important;
+    width: 50%!important;
 }
 .Jumbotron{
     display: block !important;
     margin-left: auto !important;
     margin-right: auto !important;
-    width: 80%;!important;
+    width: 80%!important;
     width: 600px;
     margin-bottom: 45px;
     height: 200px;
@@ -67,4 +71,9 @@ body{
     text-align: center;
     padding: 10px;
     font-size: 1rem;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
