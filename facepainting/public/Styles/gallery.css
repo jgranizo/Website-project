@@ -41,6 +41,9 @@ body{
     height: 450px;
 }
 
+.contactme{
+    text-align: center;
+    margin: auto;}
 .footer {
     position: fixed;
     left: 0;
@@ -51,4 +54,9 @@ body{
     text-align: center;
     padding: 10px;
     font-size: 1rem;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
